@@ -1,0 +1,11 @@
+@use "normalize";
+@use "fonts";
+@use "veriables";
+@use "utils";
+@use "global";
+
+body {
+  p {
+    color: red;
+  }
+}
