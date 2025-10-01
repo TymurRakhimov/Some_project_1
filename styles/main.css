@@ -236,12 +236,17 @@ svg * {
   font-style: normal;
   font-display: swap;
 }
-body {
-  padding: 100px;
+:root {
+  --color-light:#FFFFFF;
+  --color-dark: #141414;
+  --color-dark-15: #141414;
+  --color-dark-20: #141414;
+  --color-dark-20:
+  --color-dark-40: #141414;
 }
 
-body p {
-  color: red;
+body {
+  padding: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */
