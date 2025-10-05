@@ -1,11 +1,11 @@
 @use "normalize";
 @use "fonts";
-@use "veriables";
+@use "variables";
 @use "utils";
 @use "global";
 
-@use "blocks/icon";
-@use "blocks/logo";
-@use "blocks/burger-button";
-@use "blocks/button";
-@use "blocks/header";
+@use "./blocks/icon";
+@use "./blocks/logo";
+@use "./blocks/burger-button";
+@use "./blocks/button";
+@use "./blocks/header";
