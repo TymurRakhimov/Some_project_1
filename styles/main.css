@@ -241,7 +241,7 @@ svg * {
   --font-family-accent: "Kumbh Sans", sans-serif;
   --container-width: 100rem;
   --container-padding-x: 1rem;
-  --transition-duration: 0.2;
+  --transition-duration: 0.2s;
 }
 @media (width <= 90.06125rem) {
   :root {
@@ -377,12 +377,12 @@ a[class] {
   transition-duration: 0s !important;
 }
 
-a[arial-label],
-button[arial-label] {
+a[aria-label],
+button[aria-label] {
   position: relative;
 }
-a[arial-label]::before,
-button[arial-label]::before {
+a[aria-label]::before,
+button[aria-label]::before {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -518,6 +518,11 @@ button[arial-label]::before {
   padding-block: 1.5rem;
   background-color: var(--color-dark-10);
 }
+@media (width <= 47.99875rem) {
+  .header__body {
+    padding-block: 1.25rem;
+  }
+}
 .header__body-inner {
   display: flex;
   justify-content: space-between;
@@ -545,6 +550,11 @@ button[arial-label]::before {
     opacity: 0;
     visibility: hidden;
     translate: 100%;
+  }
+}
+@media (width <= 47.99875rem) {
+  .header__menu {
+    overflow-y: auto;
   }
 }
 .header__menu-list {
@@ -579,6 +589,13 @@ button[arial-label]::before {
   border: var(--border);
   border-radius: 0.625rem;
   pointer-events: none;
+}
+@media (width <= 47.99875rem) {
+  .header__contact-us-link {
+    width: 100%;
+    max-width: 18.75rem;
+    align-self: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

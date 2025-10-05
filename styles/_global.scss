@@ -93,13 +93,12 @@ a {
 
 a,
 button {
-  &[arial-label] {
+  &[aria-label] {
     position: relative;
 
     &::before {
       @include abs-center;
       @include square(rem(44));
-      
       content: "";
     }
   }
