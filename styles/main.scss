@@ -9,3 +9,9 @@
 @use "./blocks/burger-button";
 @use "./blocks/button";
 @use "./blocks/header";
+@use "./blocks/badge";
+@use "./blocks/soc1als";
+@use "./blocks/footer";
+.header {
+  display: none !important;
+}
